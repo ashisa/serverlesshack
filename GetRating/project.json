@@ -1,0 +1,10 @@
+{
+    "frameworks": {
+      "net46":{
+        "dependencies": {
+          "Newtonsoft.Json": "*",
+          "Microsoft.Azure.DocumentDB": "1.22.0"
+        }
+      }
+     }
+  }
