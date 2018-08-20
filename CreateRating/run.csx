@@ -10,6 +10,7 @@ using Microsoft.Azure.Documents.Client;
 
 public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceWriter log)
 {
+    log.Info("Testing CD/CI with Functions.");
     log.Info("C# HTTP trigger function processed a request.");
     string userId = "", productId = "", locationName = "", userNotes = "", rating = "";
             var id = Guid.NewGuid();
