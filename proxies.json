@@ -21,6 +21,27 @@
                 "route": "/api/v1.0/GetRatings"
             },
             "backendUri": "https://serverless1808.azurewebsites.net/api/GetRatings"
+        },
+        "dproxy": {
+            "matchCondition": {
+                "methods": [ "GET" ],
+                "route": "/api/v1.0/GetProducts"
+            },
+            "backendUri": "http://serverlessohproduct.trafficmanager.net/api/GetProducts"
+        },
+        "eproxy": {
+            "matchCondition": {
+                "methods": [ "GET" ],
+                "route": "/api/v1.0/GetProduct"
+            },
+            "backendUri": "http://serverlessohproduct.trafficmanager.net/api/GetProduct"
+        },
+        "fproxy": {
+            "matchCondition": {
+                "methods": [ "GET" ],
+                "route": "/api/v1.0/GetUser"
+            },
+            "backendUri": "http://serverlessohuser.trafficmanager.net/api/GetUser"
         }
     }
 }
