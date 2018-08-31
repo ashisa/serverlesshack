@@ -3,10 +3,24 @@
     "proxies": {
         "aproxy": {
             "matchCondition": {
-                "methods": [ "GET" ],
+                "methods": [ "GET", "POST" ],
                 "route": "/api/v1.0/CreateRating"
             },
             "backendUri": "https://serverless1808.azurewebsites.net/api/CreateRating"
+        },
+        "bproxy": {
+            "matchCondition": {
+                "methods": [ "GET" ],
+                "route": "/api/v1.0/GetRating"
+            },
+            "backendUri": "https://serverless1808.azurewebsites.net/api/GetRating"
+        },
+        "cproxy": {
+            "matchCondition": {
+                "methods": [ "GET" ],
+                "route": "/api/v1.0/GetRatings"
+            },
+            "backendUri": "https://serverless1808.azurewebsites.net/api/GetRatings"
         }
     }
 }
