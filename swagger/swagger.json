@@ -251,7 +251,26 @@
         }
       }
     },
-    "definitions": {},
+    "definitions": {
+        "Product": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer",
+                "format": "int64"
+              },
+              "productId": {
+                "type": "string"
+              },
+              "productName": {
+                "type": "string"
+              },
+              "productDescription": {
+                "type": "string"
+              }
+            }
+          }
+    },
     "securityDefinitions": {
       "apikeyQuery": {
         "type": "apiKey",
