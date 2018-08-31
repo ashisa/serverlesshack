@@ -1,0 +1,262 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "serverless1808.azurewebsites.net",
+      "version": "1.0.0"
+    },
+    "host": "serverless1808.azurewebsites.net",
+    "basePath": "/",
+    "schemes": [
+      "https",
+      "http"
+    ],
+    "paths": {
+      "/api/v1.0/CreateRating": {
+        "get": {
+          "operationId": "/api/v1.0/CreateRating/get",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        },
+        "post": {
+          "operationId": "/api/v1.0/CreateRating/post",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        }
+      },
+      "/api/v1.0/GetProduct": {
+        "get": {
+          "operationId": "/api/v1.0/GetProduct/get",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        }
+      },
+      "/api/v1.0/GetProducts": {
+        "get": {
+          "operationId": "/api/v1.0/GetProducts/get",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        }
+      },
+      "/api/v1.0/GetRating": {
+        "get": {
+          "operationId": "/api/v1.0/GetRating/get",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        }
+      },
+      "/api/v1.0/GetRatings": {
+        "get": {
+          "operationId": "/api/v1.0/GetRatings/get",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        }
+      },
+      "/api/v1.0/GetUser": {
+        "get": {
+          "operationId": "/api/v1.0/GetUser/get",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        }
+      },
+      "/api/CreateRating": {
+        "get": {
+          "operationId": "/api/CreateRating/get",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        },
+        "post": {
+          "operationId": "/api/CreateRating/post",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        }
+      },
+      "/api/GetRating": {
+        "get": {
+          "operationId": "/api/GetRating/get",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        },
+        "post": {
+          "operationId": "/api/GetRating/post",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        }
+      },
+      "/api/GetRatings": {
+        "get": {
+          "operationId": "/api/GetRatings/get",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        },
+        "post": {
+          "operationId": "/api/GetRatings/post",
+          "produces": [],
+          "consumes": [],
+          "parameters": [],
+          "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
+          "responses": {
+            "200": {
+              "description": "Success operation"
+            }
+          },
+          "security": [
+            {
+              "apikeyQuery": []
+            }
+          ]
+        }
+      }
+    },
+    "definitions": {},
+    "securityDefinitions": {
+      "apikeyQuery": {
+        "type": "apiKey",
+        "name": "code",
+        "in": "query"
+      }
+    }
+  }
