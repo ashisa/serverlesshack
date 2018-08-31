@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json.schemastore.org/proxies",
+    "proxies": {
+        "aproxy": {
+            "matchCondition": {
+                "methods": [ "GET" ],
+                "route": "/api/v1.0/CreateRating"
+            },
+            "backendUri": "https://serverless1808.azurewebsites.net/api/CreateRating"
+        }
+    }
+}
