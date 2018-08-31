@@ -56,7 +56,13 @@
           "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
           "responses": {
             "200": {
-              "description": "Success operation"
+              "description": "Success operation",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/Product"
+                }
+              }
             }
           },
           "security": [
@@ -75,7 +81,13 @@
           "description": "Replace with Operation Object #http://swagger.io/specification/#operationObject",
           "responses": {
             "200": {
-              "description": "Success operation"
+              "description": "Success operation",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/Product"
+                }
+              }
             }
           },
           "security": [
